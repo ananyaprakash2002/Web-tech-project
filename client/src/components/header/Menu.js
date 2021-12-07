@@ -68,8 +68,6 @@ const Menu = () => {
                     onClick={() => dispatch({
                         type: GLOBALTYPES.THEME, payload: !theme
                     })}>
-
-                        {theme ? 'Light mode' : 'Dark mode'}
                     </label>
 
                     <div className="dropdown-divider"></div>
